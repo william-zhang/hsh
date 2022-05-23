@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>HSHListing__c</entityName>
+    <fieldName>Status__c</fieldName>
+    <masterLabel>HSH Listing Status</masterLabel>
+    <pathAssistantSteps>
+        <fieldNames>PropertyAddress__c</fieldNames>
+        <fieldNames>Essitmiate_Price__c</fieldNames>
+        <fieldNames>AppraisalNotes__c</fieldNames>
+        <picklistValueName>Appraisal</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Form6__c</fieldNames>
+        <fieldNames>Form10__c</fieldNames>
+        <fieldNames>REA__c</fieldNames>
+        <fieldNames>PreparingNotes__c</fieldNames>
+        <picklistValueName>Preparing</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>SellingNotes__c</fieldNames>
+        <picklistValueName>Selling</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>SettlementDate__c</fieldNames>
+        <fieldNames>SettlementNotes__c</fieldNames>
+        <picklistValueName>Settlement</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>TotalDepositConfirmed__c</fieldNames>
+        <fieldNames>UnconditionalNotes__c</fieldNames>
+        <picklistValueName>Unconditional</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Buyer__c</fieldNames>
+        <fieldNames>InitialDeposit__c</fieldNames>
+        <fieldNames>ContractDate__c</fieldNames>
+        <fieldNames>ContractPrice__c</fieldNames>
+        <fieldNames>Underoffernotes__c</fieldNames>
+        <picklistValueName>Under Offer</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>__MASTER__</recordTypeName>
+</PathAssistant>
